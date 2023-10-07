@@ -101,20 +101,4 @@ void RunExample2()
 				return;
 		}
 	}
-
-
-	void newWidnowButton_Cicked(object sender, EventArgs args)
-	{
-		Console.WriteLine("new window is opened");
-	}
-
-	void SaveButton_Cicked(object sender, EventArgs args)
-	{
-		Console.WriteLine("Saved successfully!");
-	}
-
-	void UndoButton_Cicked(object sender, EventArgs args)
-	{
-		Console.WriteLine("Undo happened");
-	}
 }
